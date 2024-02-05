@@ -1,1 +1,93 @@
-/* место для вашего кода */
+.header {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    margin: 92px 24px 91px 24px;
+}
+
+.header__menu-list {
+    display: flex;
+    list-style: circle;
+}
+
+.header__links-list-item_no-bullit {
+    list-style-type: none;
+}
+
+.header__menu-item {
+    margin-left: 28px;
+}
+
+.header__logo-image {
+    margin-left: 31px;
+    height: 105px;
+}
+
+.address {
+    font-style: normal;
+    margin-left: 180px;
+}
+
+.cover {
+    min-height: 744px;
+    background-image: url(../images/cover.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 1082px 744px;
+}
+
+.overlay {
+    min-height: 744px;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 0 9px 0 9px;
+}
+
+.cover__title {
+    margin: auto;
+    color: white;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 115px;
+    text-transform: uppercase;
+}
+
+.accent-span {
+    display: block;
+}
+
+.aligned-text {
+    padding-top: 162px;
+    padding-left: 47px;
+    letter-spacing: 35px;
+}
+
+.aligned-text_center {
+    text-align: center;
+    letter-spacing: 35px;
+}
+
+.aligned-text_right {
+    text-align: right;
+    padding-right: 49px;
+    letter-spacing: 25px;
+}
+
+.cover__description {
+    display: flex;
+    margin-top: 143px;
+    margin-left: 80px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 400;
+    font-size: 22px;
+    word-spacing: 15px;
+}
+
+.bet-button {
+    margin-top: -12px;
+    margin-left: 38px;
+    padding: 12px 30px 12px 30px;
+    border: 1px solid;
+    align-items: center;
+}
