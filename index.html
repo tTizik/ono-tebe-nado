@@ -13,8 +13,8 @@
     <header class="header content-section">
       <nav class="header__menu">
         <ul class="header__menu-list">
-          <li class="header__menu-item header__link_active header__links-list-item_no-bullit">
-            <a class="header__menu-link">главная</a>  
+          <li class="header__menu-item header__links-list-item_no-bullit">
+            <a class="header__menu-link header__link_active" href="#0">главная</a>  
           </li>
           <li class="header__menu-item">
             <a class="header__menu-link" href="#lots">посмотреть лоты</a>
@@ -24,7 +24,7 @@
           </li>
         </ul>
       </nav>
-      <a class="header__logo" href="#0"><img class="header__logo-image" src="images/logo-black.svg" alt="Логотип"></a>
+      <a class="header__logo"><img class="header__logo-image" src="images/logo-black.svg" alt="Логотип"></a>
       <address class="address">
         <a href="tel:+99995555555">+9 999 555 5555</a>
         <br><a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
@@ -34,37 +34,43 @@
     <main>
       <section class="cover">
           <h1 class="cover__title">
-            <span class="accent-span aligned-text">Он<span class="letter-spacing-extended">о</span></span>
-            <span class="accent-span aligned-text_center">теб<span class="letter-spacing-extended">е</span></span>
-            <span class="accent-span aligned-text_right">н<span class="letter-spacing-extended">адо</span></span>
+            <span class="accent-span">О<span class="letter-spacing-extended">но</span></span>
+            <span class="accent-span accent-span_center">те<span class="letter-spacing-extended">бе</span></span>
+            <span class="accent-span accent-span_right">н<span class="no-letter-spacing">адо</span></span>
           </h1>
-          <h2 class="cover__description">
-            <span class="cover__description-text">Аукцион вещей, в которые никто не верил</span>
-            <a class="bet-button" href="#0">Сделать ставку</a>
-          </h2>
+          <div class="cover__description">
+            <p class="cover__description-text">Аукцион вещей, в которые никто не верил</p>
+            <button class="bet-button" href="#0">Сделать ставку</button>
+          </div>
           <div class="overlay"></div>
       </section>
       <section class="lots">
-        <div class="lots__heading" id="lots">
+        <h2 class="lots__heading" id="lots">
           Лоты
-        </div>
-        <div class="lots__card-list">
-            <a class="card card_type_film" href="#0">
-                <u class="card__title">Фильм режиссёра, который бросил киношколу</u>
+        </h2>
+        <u class="lots__card-list">
+            <a class="card__link" href="#0">
+              <article class="card card_type_film">
+                <h3 class="card__title">Фильм режиссёра, который бросил киношколу</h3>
                 <p class="card__text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
                 <div class="overlay"></div>
+              </article>  
             </a>
-            <a class="card card_type_book" href="#0">
-                <u class="card__title">Книга, где описан один скучный день из жизни рекламного агента</u>
+            <a class="card__link" href="#0">
+              <article class="card card_type_book">
+                <h3 class="card__title">Книга, где описан один скучный день из жизни рекламного агента</h3>
                 <p class="card__text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
                 <div class="overlay"></div>
+              </article>
             </a>
-            <a class="card card_type_picture" href="#0">
-                <u class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</u>
+            <a class="card__link" href="#0">
+              <article class="card card_type_picture">
+                <h3 class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
                 <p class="card__text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
                 <div class="overlay"></div>
+              </article>
             </a>
-        </div>
+        </u>
         <div class="lots__look-more-link">
           <a href="#0">посмотреть больше</a>
         </div>
@@ -99,7 +105,7 @@
         <nav class="footer__menu">
           <ul class="footer__menu-list">
             <li class="footer__menu-list-item">
-              <a class="footer__menu-link footer__menu-link_active">главная</a>  
+              <a class="footer__menu-link footer__menu-link_active" href="#0">главная</a>  
             </li>
             <li class="footer__menu-list-item">
               <a class="footer__menu-link" href="#lots">посмотреть лоты</a>
@@ -109,11 +115,11 @@
             </li>
           </ul>
         </nav>
-        <div class="footer__social-list">
+        <ul class="footer__social-list">
           <a class="footer__social-link" href="#0"><img class="footer__social-icon" src="images/yt.svg" alt="Ютуб"></a>
           <a class="footer__social-link" href="#0"><img class="footer__social-icon" src="images/vk.svg" alt="Вк"></a>
           <a class="footer__social-link" href="#0"><img class="footer__social-icon" src="images/pinterest.svg" alt="Пинтерест"></a>
-        </div>
+        </ul>
     </footer>
   </body>
 </html>
