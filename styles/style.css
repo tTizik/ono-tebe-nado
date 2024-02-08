@@ -38,7 +38,7 @@
 }
 
 .cover {
-    box-sizing: content-box;
+    padding: 162px 50px 51px 50px;
     position: relative;
     width: 1100px;
     background-image: url(../images/cover.jpg);
@@ -47,20 +47,14 @@
 }   
 
 .cover__title {
-    padding-top: 165px;
-    padding-left: 50px;
     position: relative;
+    margin-bottom: 137px;
     color: white;
     font-weight: 700;
     font-size: 100px;
-    line-height: 120px;
     text-transform: uppercase;
     letter-spacing: 30px;
     z-index: 1;
-}
-
-.cover__description {
-    padding-bottom: 39px;
 }
 
 .overlay {
@@ -74,35 +68,35 @@
 
 .accent-span {
     display: block;
+    justify-content: center;
+    line-height: 115%;
 }
 
 .accent-span_center {
-    width: 1000px;
+    margin-top: 20px;
+    line-height: 100%;
     text-align: center;
-    line-height: 130%;
 }
 
 .accent-span_right {
-    width: 1030px;
+    margin-top: 20px;
+    line-height: 100%;
     text-align: right;
-    line-height: 110%;
-    letter-spacing: 60px;
 }
 
 .letter-spacing-extended {
-    display: inline;
     letter-spacing: 60px;
 }
 
 .no-letter-spacing {
-    letter-spacing: 30px;
+    letter-spacing: 0;
 }
 
 .cover__description {
     position: relative;
     display: flex;
-    margin-top: 141px;
-    margin-left: 79px;
+    justify-content: end;
+    align-items: center;
     text-transform: uppercase;
     color: white;
     font-weight: 400;
@@ -113,8 +107,8 @@
 
 .bet-button {
     position: relative;
-    left: 0px;
-    bottom: 12px;
+    left: 0;
+    bottom: 0;
     color: white;
     font-size: 22px;
     text-transform: uppercase;
@@ -145,6 +139,7 @@
     margin-top: 27px;
     column-gap: 25px;
     row-gap: 25px;
+    list-style-type: none;
 }
 
 .card {
@@ -191,8 +186,6 @@
 }
 
 .card_type_book {
-    display: flex;
-    box-sizing: border-box;
     background-image: url(../images/card-lot-02.jpg);
     background-position: center;
 }
@@ -288,8 +281,9 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-left: 185px;
+    margin-left: auto;
     min-width: 240px;
+    list-style-type: none;
 }
 
 .footer__social-icon {
